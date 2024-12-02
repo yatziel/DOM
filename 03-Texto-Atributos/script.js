@@ -111,3 +111,64 @@ titulo.innerHTML = "¡Amigos <span>pokecitos</span>!";
 lista.innerHTML = ` <li>💤 Snorlax</li>
                     <li class="oculto">😸 Meow</li>
                     <li>🦦 Mewtwo</li> `;
+
+
+
+
+/* 
+
+  getAttribute()
+
+  Devuelve el valor del atributo del elemento.
+
+    elemento.getAttribute(atributo)
+
+
+*/
+
+const enlace = document.getElementsByTagName("a");
+
+console.log(enlace[0].getAttribute("href"))
+
+/* 
+
+  removeAttribute()
+
+  Elimina el valor del atributo de un elemento.
+
+    elemento.removeAttribute(atributo)
+
+*/
+
+enlace[0].removeAttribute("href");
+
+console.log(enlace[0].getAttribute("href"));
+
+/* 
+
+  setAttribute()
+
+  Asigna un atributo y un valor a un elemento. 
+
+    elemento.setAttribute(atributo, valor)
+
+  - Sobreescribir un atributo ya declarado.
+  - Crear un nuevo atributo y su valor.
+
+*/
+
+enlace[0].setAttribute("href", "https://www.instagram.com");
+
+console.log(enlace[0].getAttribute("href"));
+
+/* Antes */
+
+console.log(enlace[0].getAttribute("target"));
+
+enlace[0].setAttribute("target", "_blank");
+
+/* Después */
+
+console.log(enlace[0].getAttribute("target"));
+
+/* Commit -m "Terminamos textos y atributos del DOM" */
