@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: darkslateblue;
+  padding: 24px;
+  max-width: 400px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color:rgb(228, 214, 13);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  padding: 12px 8px;
+  color: whitesmoke;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bg-one {
+  background-color: rgba(240, 128, 128, 0.694);
+}
+
+.bg-one:hover {
+  background-color: rgba(110, 60, 60, 0.694);
+}
+
+.bg-two {
+  background-color: rgba(30, 191, 183, 0.717);
+}
+
+.bg-two:hover {
+  background-color: rgba(17, 114, 109, 0.717);
+}
