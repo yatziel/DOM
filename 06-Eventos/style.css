@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  color:whitesmoke;
+  background-color: darkslateblue;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  color: darkslateblue;
+  cursor: pointer;
+  background-color: lightcoral;
+  box-shadow: 0 0 0 0 black;
+  transition: all .300s ease;
+}
+
+button:hover {
+  background-color: lightgreen;
+  box-shadow: 8px 8px 0 0 black;
+}
+
