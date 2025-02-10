@@ -20,25 +20,38 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+
+    <!-- Favicon -->
+
+    <link rel="icon" href="favicon.png" type="image/png" />
   </head>
   <body>
     <div class="container">
       <h1 class="title">✅ Lista Tareas</h1>
-      <input type="text" placeholder="Escribe tu próxima tarea..." />
-      <button type="submit">Crear Tarea</button>
-      <div class="lista-tareas">
-        <div class="tarea">
+      <input
+        id="taskInput"
+        type="text"
+        placeholder="Escribe tu próxima tarea..."
+      />
+      <button id="addButton" type="submit">Crear Tarea</button>
+      <div class="task-list" id="taskList">
+        <div class="task">
           <p>Estudiar Javascript</p>
-          <div class="iconos">
-            <i class="bi bi-check icono-completar"></i>
-            <i class="bi bi-trash icono-eliminar"></i>
+          <div class="task-icons">
+            <i class="bi bi-check icon-complete"></i>
+            <i class="bi bi-trash icon-delete"></i>
           </div>
         </div>
-        <div class="tarea completada">
-          <p>Grabar escena de cortometraje</p>
-          <div class="iconos">
-            <i class="bi bi-check icono-completar"></i>
-            <i class="bi bi-trash icono-eliminar"></i>
+        <div class="task complete">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            consequatur culpa ea inventore. Vero expedita quia eveniet ipsa
+            voluptatum, perferendis ea sunt dignissimos, ad dolore ratione ex
+            earum est perspiciatis!
+          </p>
+          <div class="task-icons">
+            <i class="bi bi-check icon-complete"></i>
+            <i class="bi bi-trash icon-delete"></i>
           </div>
         </div>
       </div>

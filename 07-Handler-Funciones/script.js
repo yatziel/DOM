@@ -48,14 +48,14 @@ const flecha  = document.getElementById('flecha');
 
 function funcionExterna() {
     console.log('¡Click en el botón externa! 👽');
-};
+}
 
 externa.addEventListener('click', funcionExterna);
 
 /* Función Anónima */
 
 anonima.addEventListener('click', function() {
-    console.log('¡Click en el botón anónima 🥷');
+    console.log('¡Click en el botón anónima 🥷!');
 });
 
 /* Función Flecha */
